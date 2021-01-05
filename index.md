@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/29/2019 1:28:21 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_BANGUI</Type>
+			<Description>TXT_KEY_CITYSTATE_BANGUI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BANGUI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BANGUI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_BANGUI_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_BANGUI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BANGUI_01</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
 
-You can use the [editor on GitHub](https://github.com/IgorLins/City-State-evolved-new-city/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+	<Language_en_US>
+		<!-- Convention: the former city state is the "capital" even if it's not really the capital -->
+		<!-- AF1 -->
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI">
+			<Text>Central African Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_ADJ">
+			<Text>Central Africans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_PEDIA">
+			<Text>The Central African Republic is a landlocked country in Central Africa. It is bordered by Chad to the north, Sudan to the northeast, South Sudan to the east, the Democratic Republic of the Congo to the south, the Republic of the Congo to the southwest and Cameroon to the west. The CAR covers a land area of about 620,000 square kilometres (240,000 sq mi) and had an estimated population of around 4.6 million as of 2016. As of 2019, the CAR is the scene of a civil war, ongoing since 2012.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_01">
+			<Text>Bangui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_02">
+			<Text>Ippy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_03">
+			<Text>Banbari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_04">
+			<Text>Bria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_05">
+			<Text>Bangassou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_06">
+			<Text>Mbaiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_07">
+			<Text>Bossembélé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_08">
+			<Text>Yaloké</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_09">
+			<Text>Carnot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BANGUI_10">
+			<Text>Berbérati</Text>
+		</Row>
+	</Language_en_US>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IgorLins/City-State-evolved-new-city/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_BANGUI</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BANGUI</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BANGUI</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BANGUI</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+</GameData>
