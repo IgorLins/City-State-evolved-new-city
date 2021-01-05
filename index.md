@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/29/2019 1:28:21 PM -->
-<GameData>
 	<MinorCivilizations>
 		<Row>
 			<Type>MINOR_CIV_BANGUI</Type>
@@ -21,7 +18,7 @@
 			<MinorCivType>MINOR_CIV_BANGUI</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_BANGUI_01</CityName>
 		</Row>
-	</MinorCivilization_CityNames>
+	</MinorCivilization_CityNames> 
 
 	<Language_en_US>
 		<!-- Convention: the former city state is the "capital" even if it's not really the capital -->
@@ -89,4 +86,3 @@
 			<Flavor>10</Flavor>
 		</Row>
 	</MinorCivilization_Flavors>
-</GameData>
